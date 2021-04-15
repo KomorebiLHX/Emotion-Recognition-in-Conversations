@@ -1,0 +1,246 @@
+Running on CPU
+Namespace(active_listener=False, attention='general', batch_size=30, class_weight=True, cuda=False, dropout=0.1, epochs=60, l2=1e-05, lr=0.0001, no_cuda=False, rec_dropout=0.1)
+==================== Preprocessing data ====================
+	* building iterators
+==================== Training data ====================
+	* Training epoch 0:
+	-> avg_loss: 1.7455, avg_accuracy: 32.1300, avg_fscore: 30.8200
+	* Validating epoch 0:
+	-> avg_loss: 1.6974, avg_accuracy: 51.2600, avg_fscore: 50.2300
+	* Training epoch 1:
+	-> avg_loss: 1.5625, avg_accuracy: 58.1200, avg_fscore: 56.6000
+	* Validating epoch 1:
+	-> avg_loss: 1.5622, avg_accuracy: 58.6000, avg_fscore: 57.2300
+	* Training epoch 2:
+	-> avg_loss: 1.3599, avg_accuracy: 63.5600, avg_fscore: 61.3800
+	* Validating epoch 2:
+	-> avg_loss: 1.4134, avg_accuracy: 60.6300, avg_fscore: 58.4800
+	* Training epoch 3:
+	-> avg_loss: 1.1661, avg_accuracy: 66.7800, avg_fscore: 64.8100
+	* Validating epoch 3:
+	-> avg_loss: 1.2672, avg_accuracy: 63.0900, avg_fscore: 61.3600
+	* Training epoch 4:
+	-> avg_loss: 0.9963, avg_accuracy: 69.0200, avg_fscore: 67.5200
+	* Validating epoch 4:
+	-> avg_loss: 1.1417, avg_accuracy: 64.5700, avg_fscore: 63.2400
+	* Training epoch 5:
+	-> avg_loss: 0.8560, avg_accuracy: 72.4600, avg_fscore: 71.8100
+	* Validating epoch 5:
+	-> avg_loss: 1.0477, avg_accuracy: 64.0200, avg_fscore: 62.9400
+	* Training epoch 6:
+	-> avg_loss: 0.7415, avg_accuracy: 75.4400, avg_fscore: 75.0200
+	* Validating epoch 6:
+	-> avg_loss: 0.9892, avg_accuracy: 64.4500, avg_fscore: 63.5200
+	* Training epoch 7:
+	-> avg_loss: 0.6511, avg_accuracy: 78.3100, avg_fscore: 78.0300
+	* Validating epoch 7:
+	-> avg_loss: 0.9596, avg_accuracy: 64.3900, avg_fscore: 63.6300
+	* Training epoch 8:
+	-> avg_loss: 0.5803, avg_accuracy: 81.1000, avg_fscore: 80.9000
+	* Validating epoch 8:
+	-> avg_loss: 0.9571, avg_accuracy: 62.6000, avg_fscore: 62.1500
+	* Training epoch 9:
+	-> avg_loss: 0.5071, avg_accuracy: 83.7900, avg_fscore: 83.6900
+	* Validating epoch 9:
+	-> avg_loss: 0.9647, avg_accuracy: 62.9100, avg_fscore: 62.5200
+	* Training epoch 10:
+	-> avg_loss: 0.4532, avg_accuracy: 86.2700, avg_fscore: 86.2100
+	* Validating epoch 10:
+	-> avg_loss: 0.9883, avg_accuracy: 62.4200, avg_fscore: 62.2200
+	* Training epoch 11:
+	-> avg_loss: 0.4192, avg_accuracy: 87.6400, avg_fscore: 87.6000
+	* Validating epoch 11:
+	-> avg_loss: 1.0152, avg_accuracy: 62.0500, avg_fscore: 62.0000
+	* Training epoch 12:
+	-> avg_loss: 0.3811, avg_accuracy: 88.8500, avg_fscore: 88.8200
+	* Validating epoch 12:
+	-> avg_loss: 1.0402, avg_accuracy: 61.8600, avg_fscore: 61.8600
+	* Training epoch 13:
+	-> avg_loss: 0.3506, avg_accuracy: 89.7600, avg_fscore: 89.7400
+	* Validating epoch 13:
+	-> avg_loss: 1.0604, avg_accuracy: 61.5500, avg_fscore: 61.6900
+	* Training epoch 14:
+	-> avg_loss: 0.3228, avg_accuracy: 90.4300, avg_fscore: 90.4300
+	* Validating epoch 14:
+	-> avg_loss: 1.0952, avg_accuracy: 61.0600, avg_fscore: 61.2600
+	* Training epoch 15:
+	-> avg_loss: 0.3042, avg_accuracy: 91.3800, avg_fscore: 91.3700
+	* Validating epoch 15:
+	-> avg_loss: 1.1158, avg_accuracy: 60.7500, avg_fscore: 60.9100
+	* Training epoch 16:
+	-> avg_loss: 0.2835, avg_accuracy: 91.7400, avg_fscore: 91.7300
+	* Validating epoch 16:
+	-> avg_loss: 1.1318, avg_accuracy: 60.6900, avg_fscore: 60.7100
+	* Training epoch 17:
+	-> avg_loss: 0.2665, avg_accuracy: 92.4100, avg_fscore: 92.4000
+	* Validating epoch 17:
+	-> avg_loss: 1.1470, avg_accuracy: 60.5700, avg_fscore: 60.6700
+	* Training epoch 18:
+	-> avg_loss: 0.2611, avg_accuracy: 92.1700, avg_fscore: 92.1600
+	* Validating epoch 18:
+	-> avg_loss: 1.1609, avg_accuracy: 60.0700, avg_fscore: 60.2300
+	* Training epoch 19:
+	-> avg_loss: 0.2451, avg_accuracy: 92.8100, avg_fscore: 92.8000
+	* Validating epoch 19:
+	-> avg_loss: 1.1718, avg_accuracy: 60.3800, avg_fscore: 60.4600
+	* Training epoch 20:
+	-> avg_loss: 0.2369, avg_accuracy: 93.1800, avg_fscore: 93.1800
+	* Validating epoch 20:
+	-> avg_loss: 1.1826, avg_accuracy: 60.4400, avg_fscore: 60.4600
+	* Training epoch 21:
+	-> avg_loss: 0.2367, avg_accuracy: 93.4900, avg_fscore: 93.4800
+	* Validating epoch 21:
+	-> avg_loss: 1.1949, avg_accuracy: 59.9500, avg_fscore: 60.0000
+	* Training epoch 22:
+	-> avg_loss: 0.2158, avg_accuracy: 94.1800, avg_fscore: 94.1800
+	* Validating epoch 22:
+	-> avg_loss: 1.2106, avg_accuracy: 59.7700, avg_fscore: 59.8500
+	* Training epoch 23:
+	-> avg_loss: 0.2100, avg_accuracy: 93.6800, avg_fscore: 93.6800
+	* Validating epoch 23:
+	-> avg_loss: 1.2126, avg_accuracy: 58.9000, avg_fscore: 59.0100
+	* Training epoch 24:
+	-> avg_loss: 0.2112, avg_accuracy: 93.7200, avg_fscore: 93.7100
+	* Validating epoch 24:
+	-> avg_loss: 1.2156, avg_accuracy: 59.3300, avg_fscore: 59.4400
+	* Training epoch 25:
+	-> avg_loss: 0.2019, avg_accuracy: 93.6500, avg_fscore: 93.6400
+	* Validating epoch 25:
+	-> avg_loss: 1.2358, avg_accuracy: 59.1500, avg_fscore: 59.2400
+	* Training epoch 26:
+	-> avg_loss: 0.1937, avg_accuracy: 94.3500, avg_fscore: 94.3500
+	* Validating epoch 26:
+	-> avg_loss: 1.2577, avg_accuracy: 59.5200, avg_fscore: 59.6400
+	* Training epoch 27:
+	-> avg_loss: 0.1946, avg_accuracy: 94.2700, avg_fscore: 94.2600
+	* Validating epoch 27:
+	-> avg_loss: 1.2593, avg_accuracy: 59.5800, avg_fscore: 59.7000
+	* Training epoch 28:
+	-> avg_loss: 0.1854, avg_accuracy: 94.6000, avg_fscore: 94.5900
+	* Validating epoch 28:
+	-> avg_loss: 1.2477, avg_accuracy: 59.9500, avg_fscore: 60.0900
+	* Training epoch 29:
+	-> avg_loss: 0.1826, avg_accuracy: 94.3900, avg_fscore: 94.3800
+	* Validating epoch 29:
+	-> avg_loss: 1.2548, avg_accuracy: 59.5800, avg_fscore: 59.6800
+	* Training epoch 30:
+	-> avg_loss: 0.1820, avg_accuracy: 94.4900, avg_fscore: 94.4800
+	* Validating epoch 30:
+	-> avg_loss: 1.2652, avg_accuracy: 59.7700, avg_fscore: 59.7700
+	* Training epoch 31:
+	-> avg_loss: 0.1738, avg_accuracy: 94.9600, avg_fscore: 94.9400
+	* Validating epoch 31:
+	-> avg_loss: 1.2806, avg_accuracy: 59.7000, avg_fscore: 59.6300
+	* Training epoch 32:
+	-> avg_loss: 0.1683, avg_accuracy: 94.9900, avg_fscore: 94.9800
+	* Validating epoch 32:
+	-> avg_loss: 1.3088, avg_accuracy: 59.0900, avg_fscore: 59.0600
+	* Training epoch 33:
+	-> avg_loss: 0.1684, avg_accuracy: 94.8500, avg_fscore: 94.8500
+	* Validating epoch 33:
+	-> avg_loss: 1.3199, avg_accuracy: 58.8400, avg_fscore: 58.9100
+	* Training epoch 34:
+	-> avg_loss: 0.1663, avg_accuracy: 95.1100, avg_fscore: 95.1100
+	* Validating epoch 34:
+	-> avg_loss: 1.2878, avg_accuracy: 59.8900, avg_fscore: 59.9900
+	* Training epoch 35:
+	-> avg_loss: 0.1564, avg_accuracy: 95.1300, avg_fscore: 95.1200
+	* Validating epoch 35:
+	-> avg_loss: 1.3001, avg_accuracy: 60.2600, avg_fscore: 60.3400
+	* Training epoch 36:
+	-> avg_loss: 0.1519, avg_accuracy: 95.4600, avg_fscore: 95.4500
+	* Validating epoch 36:
+	-> avg_loss: 1.3282, avg_accuracy: 59.7000, avg_fscore: 59.7700
+	* Training epoch 37:
+	-> avg_loss: 0.1518, avg_accuracy: 95.4200, avg_fscore: 95.4200
+	* Validating epoch 37:
+	-> avg_loss: 1.3741, avg_accuracy: 59.2100, avg_fscore: 59.2100
+	* Training epoch 38:
+	-> avg_loss: 0.1513, avg_accuracy: 95.4600, avg_fscore: 95.4500
+	* Validating epoch 38:
+	-> avg_loss: 1.4017, avg_accuracy: 58.4700, avg_fscore: 58.3700
+	* Training epoch 39:
+	-> avg_loss: 0.1449, avg_accuracy: 95.5100, avg_fscore: 95.5000
+	* Validating epoch 39:
+	-> avg_loss: 1.3957, avg_accuracy: 58.2900, avg_fscore: 58.0800
+	* Training epoch 40:
+	-> avg_loss: 0.1465, avg_accuracy: 95.4600, avg_fscore: 95.4500
+	* Validating epoch 40:
+	-> avg_loss: 1.3711, avg_accuracy: 59.0300, avg_fscore: 58.9600
+	* Training epoch 41:
+	-> avg_loss: 0.1459, avg_accuracy: 95.6100, avg_fscore: 95.6000
+	* Validating epoch 41:
+	-> avg_loss: 1.3554, avg_accuracy: 59.7000, avg_fscore: 59.6800
+	* Training epoch 42:
+	-> avg_loss: 0.1426, avg_accuracy: 95.4000, avg_fscore: 95.3900
+	* Validating epoch 42:
+	-> avg_loss: 1.3667, avg_accuracy: 59.5800, avg_fscore: 59.6200
+	* Training epoch 43:
+	-> avg_loss: 0.1394, avg_accuracy: 95.5900, avg_fscore: 95.5900
+	* Validating epoch 43:
+	-> avg_loss: 1.3993, avg_accuracy: 59.0300, avg_fscore: 58.9900
+	* Training epoch 44:
+	-> avg_loss: 0.1302, avg_accuracy: 96.0200, avg_fscore: 96.0200
+	* Validating epoch 44:
+	-> avg_loss: 1.4268, avg_accuracy: 58.6600, avg_fscore: 58.5600
+	* Training epoch 45:
+	-> avg_loss: 0.1302, avg_accuracy: 95.8000, avg_fscore: 95.7900
+	* Validating epoch 45:
+	-> avg_loss: 1.4505, avg_accuracy: 58.1000, avg_fscore: 58.0200
+	* Training epoch 46:
+	-> avg_loss: 0.1280, avg_accuracy: 95.9400, avg_fscore: 95.9300
+	* Validating epoch 46:
+	-> avg_loss: 1.4549, avg_accuracy: 58.1600, avg_fscore: 58.1000
+	* Training epoch 47:
+	-> avg_loss: 0.1265, avg_accuracy: 96.0200, avg_fscore: 96.0200
+	* Validating epoch 47:
+	-> avg_loss: 1.4493, avg_accuracy: 58.6000, avg_fscore: 58.5300
+	* Training epoch 48:
+	-> avg_loss: 0.1222, avg_accuracy: 96.2800, avg_fscore: 96.2800
+	* Validating epoch 48:
+	-> avg_loss: 1.4442, avg_accuracy: 58.9000, avg_fscore: 58.8600
+	* Training epoch 49:
+	-> avg_loss: 0.1234, avg_accuracy: 96.4000, avg_fscore: 96.4000
+	* Validating epoch 49:
+	-> avg_loss: 1.4340, avg_accuracy: 58.8400, avg_fscore: 58.7900
+	* Training epoch 50:
+	-> avg_loss: 0.1224, avg_accuracy: 96.0800, avg_fscore: 96.0600
+	* Validating epoch 50:
+	-> avg_loss: 1.4336, avg_accuracy: 58.7800, avg_fscore: 58.7600
+	* Training epoch 51:
+	-> avg_loss: 0.1179, avg_accuracy: 96.2300, avg_fscore: 96.2200
+	* Validating epoch 51:
+	-> avg_loss: 1.4513, avg_accuracy: 59.3300, avg_fscore: 59.2700
+	* Training epoch 52:
+	-> avg_loss: 0.1174, avg_accuracy: 96.5900, avg_fscore: 96.5900
+	* Validating epoch 52:
+	-> avg_loss: 1.4673, avg_accuracy: 58.5300, avg_fscore: 58.5000
+	* Training epoch 53:
+	-> avg_loss: 0.1137, avg_accuracy: 96.5900, avg_fscore: 96.5900
+	* Validating epoch 53:
+	-> avg_loss: 1.4653, avg_accuracy: 58.2900, avg_fscore: 58.3100
+	* Training epoch 54:
+	-> avg_loss: 0.1108, avg_accuracy: 96.8200, avg_fscore: 96.8100
+	* Validating epoch 54:
+	-> avg_loss: 1.4645, avg_accuracy: 58.0400, avg_fscore: 58.0800
+	* Training epoch 55:
+	-> avg_loss: 0.1119, avg_accuracy: 96.4700, avg_fscore: 96.4600
+	* Validating epoch 55:
+	-> avg_loss: 1.4858, avg_accuracy: 58.2900, avg_fscore: 58.3100
+	* Training epoch 56:
+	-> avg_loss: 0.1071, avg_accuracy: 96.7600, avg_fscore: 96.7600
+	* Validating epoch 56:
+	-> avg_loss: 1.4967, avg_accuracy: 58.4700, avg_fscore: 58.5100
+	* Training epoch 57:
+	-> avg_loss: 0.1047, avg_accuracy: 96.7300, avg_fscore: 96.7200
+	* Validating epoch 57:
+	-> avg_loss: 1.5134, avg_accuracy: 57.9800, avg_fscore: 57.9100
+	* Training epoch 58:
+	-> avg_loss: 0.1058, avg_accuracy: 96.7300, avg_fscore: 96.7200
+	* Validating epoch 58:
+	-> avg_loss: 1.5555, avg_accuracy: 58.1000, avg_fscore: 57.9300
+	* Training epoch 59:
+	-> avg_loss: 0.1054, avg_accuracy: 96.8700, avg_fscore: 96.8600
+	* Validating epoch 59:
+	-> avg_loss: 1.5698, avg_accuracy: 58.0400, avg_fscore: 57.8500
+	-> best_loss: 0.9571, bst_accuracy: 62.6000, best_fscore: 62.1500
