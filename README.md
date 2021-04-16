@@ -32,7 +32,7 @@ RGAT use position encodings. If you want to use different type of PE, you can ch
 Relation Position Encodings is proved to be the best position encoding.
 
 ## Environment
-You need install above packages.
+You need to install these packages:
 <br />Pytorch, Transformers, PyTorch Geometric
 
 ## Run
